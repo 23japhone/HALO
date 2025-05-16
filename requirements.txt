@@ -1,0 +1,5 @@
+requests==2.32.3
+human-eval
+sacrebleu==2.5.1
+pandas
+numpy

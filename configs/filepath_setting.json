@@ -1,0 +1,20 @@
+{
+    "api_config_path": "./configs/api_setting.json",
+    "log_dir": "./logs",
+
+    "human_eval_results_dir": "./experiment/human_eval/results",
+    
+    "MMLU_dataset_dir": "./experiment/MMLU/MMLU_data",
+    "MMLU_results_dir": "./experiment/MMLU/results",
+
+    "MATH_dataset_dir": "./experiment/MATH/MATH_data",
+    "MATH_results_dir": "./experiment/MATH/results",
+
+    "Ablation_results_prompt_MATH_dir": "./experiment/ablation_study/results/w_o_prompt/MATH",
+    "Ablation_results_prompt_MMLU_dir": "./experiment/ablation_study/results/w_o_prompt/MMLU",
+    "Ablation_results_prompt_HUMANEVAL_dir": "./experiment/ablation_study/results/w_o_prompt/Human_eval",
+
+    "Ablation_results_task_HUMANEVAL_dir": "./experiment/ablation_study/results/w_o_task/Human_eval",
+    "Ablation_results_task_MMLU_dir": "./experiment/ablation_study/results/w_o_task/MMLU",
+    "Ablation_results_task_MATH_dir": "./experiment/ablation_study/results/w_o_task/MATH"
+}
