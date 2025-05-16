@@ -85,3 +85,5 @@ python ./experiment/human_eval/run.py
 ```python
 python ./experiment/MMLU/run.py
 ```
+
+### 3. MATH
