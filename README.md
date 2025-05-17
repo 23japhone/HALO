@@ -75,9 +75,13 @@ python run.py
 
 Performance of HALO across three benchmarks. Metrics include $pass@1$ (%) for HumanEval, $accuracy$ (%) for MMLU as well as MATH, and $Avg.$ (%) for the mean performance over three runs. All methods are executed with GPT-4o.
 
-|             | HumanEval | MMLU | MATH | Avg. |
-|:-----------:|:---------:|:----:|:----:|:----:|
-| HALO (Ours) | 95.2      | 81.6 | 58.9 | 78.6 |
+|             | Structure                        | HumanEval | MMLU | MATH | Avg. |
+|:-----------:|:--------------------------------:|:---------:|:----:|:----:|:----:|
+| HALO (Ours) | Hierarchical architecture + MCTS | 95.2      | 81.6 | 58.9 | 78.6 |
+
+Ablation study of removing the Adaptive Prompt Refinement module and the high-level planning agent on GPT-4o across three benchmarks.
+
+![Ablation study of HALO](./assets/ablation_study.png)
 
 ### 1. HumanEval
 
