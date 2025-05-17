@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ### 1. Create Api config file
 
-Create `api_setting.json` file in `HALO/configs` directory and insert the following contents:
+Create `api_setting.json` file in `HALO/configs` directory and insert the following contents (GPT-4o is recommended):
 
 ```json
 {
