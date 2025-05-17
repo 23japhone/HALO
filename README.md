@@ -28,8 +28,8 @@
 ### 1. Create virtualenv(recommended)
 
 ```bash
-conda create -n aglow python=3.10
-conda activate aglow
+conda create -n halo python=3.10
+conda activate halo
 ```
 
 ### 2. Install packages
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### 1. Create Api config file
 
-**Create `api_setting.json` file in `AGLOW/configs` directory and insert the following contents:**
+**Create `api_setting.json` file in `HALO/configs` directory and insert the following contents:**
 
 ```json
 {
@@ -54,9 +54,9 @@ pip install -r requirements.txt
 
 ### 2. Modify user query(Optional)
 
-- Locate the code between "user input begin" section and "user input ended" section in `AGLOW/run.py` script. You can modify the "QUERY" as what you want to ask.
+- Locate the code between "user input begin" section and "user input ended" section in `HALO/run.py` script. You can modify the "QUERY" as what you want to ask.
 
-### 3. Run script(make sure to run in the `AGLOW` directory)
+### 3. Run script(make sure to run in the `HALO` directory)
 
 ```bash
 python run.py
@@ -68,7 +68,7 @@ python run.py
 
 #### 1.1 For windows, modify `human-eval` package script, [please refer here](https://github.com/openai/human-eval/issues/45#issuecomment-2194144978)
 
-#### 1.2 Run script(make sure to run in the `AGLOW` directory)
+#### 1.2 Run script(make sure to run in the `HALO` directory)
 
 ```python
 python ./experiment/human_eval/run.py
@@ -78,9 +78,9 @@ python ./experiment/human_eval/run.py
 
 #### 2.1 [**Download**](https://people.eecs.berkeley.edu/~hendrycks/data.tar) MMLU datasets
 
-#### 2.2 Unzip datasets and rename `MMLU_data`, move it into `AGLOW/experiment/MMLU` directory
+#### 2.2 Unzip datasets and rename `MMLU_data`, move it into `HALO/experiment/MMLU` directory
 
-#### 2.3 Run script(make sure to run in the `AGLOW` directory)
+#### 2.3 Run script(make sure to run in the `HALO` directory)
 
 ```python
 python ./experiment/MMLU/run.py
