@@ -73,6 +73,12 @@ python run.py
 
 ## Experiments
 
+Performance of HALO across three benchmarks. Metrics include $pass@1$ (%) for HumanEval, $accuracy$ (%) for MMLU as well as MATH, and $Avg.$ (%) for the mean performance over three runs. All methods are executed with GPT-4o.
+
+|             | HumanEval | MMLU | MATH | Avg. |
+|:-----------:|:---------:|:----:|:----:|:----:|
+| HALO (Ours) | 95.2      | 81.6 | 58.9 | 78.6 |
+
 ### 1. HumanEval
 
 #### 1.1 For windows, modify `human-eval` package script, [please refer here](https://github.com/openai/human-eval/issues/45#issuecomment-2194144978)
