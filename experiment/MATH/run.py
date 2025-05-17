@@ -102,7 +102,7 @@ def main() -> None:
                     "question": question,
                     "question level": question_level,
                     "true answer": true_ans,
-                    "AGLOW answer": ans,
+                    "HALO answer": ans,
                 },
                 json_type="list"
             )
@@ -118,8 +118,8 @@ def main() -> None:
         subject_acc_list = []
         level_num_list = []
         for level, true_ans_list in subject_label.items():
-            aglow_ans_list = subject_reasoning_ans[level]
-            level_acc = np.mean(np.array(aglow_ans_list) == np.array(true_ans_list))
+            HALO_ans_list = subject_reasoning_ans[level]
+            level_acc = np.mean(np.array(HALO_ans_list) == np.array(true_ans_list))
             subject_acc_list.append(level_acc)
             level_num_list.append(len(true_ans_list))
 

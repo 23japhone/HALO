@@ -99,7 +99,7 @@ def main() -> None:
                     "question": question,
                     "options": options,
                     "true answer": true_ans,
-                    "AGLOW answer": ans,
+                    "HALO answer": ans,
                 },
                 json_type="list"
             )
