@@ -6,14 +6,19 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="Python Versions">
+  <a href="https://arxiv.org/abs/2505.13516"><img src="https://img.shields.io/badge/Arxiv-2505.13516-b31b1b.svg?logo=arXiv" alt=""></a>
   <img src="https://img.shields.io/badge/License-MIT-red.svg" alt="License">
 </div>
 
 <p align="center">
+  <br>
   <b>Authors: </b>
   <a href="https://www.semanticscholar.org/author/Zhipeng-Hou/2307312578">Zhipeng Hou</a>,
   <a href="https://github.com/Haaareally">Junyi Tang</a>,
   <a href="https://github.com/Xwwww-yp">Yipeng Wang</a>
+  <br>
+  <b>Email: </b>
+  <a href="mailto:japhonehou@gmail.com">japhonehou@gmail.com</a>
 </p>
 
 <!-- markdownlint-enable MD033 -->
