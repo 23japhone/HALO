@@ -25,7 +25,7 @@
 
 ---
 
-## Citation
+## 📌Citation
 
 If you find our work useful in your research, please consider citing the HALO as follows:
 
@@ -41,7 +41,7 @@ If you find our work useful in your research, please consider citing the HALO as
 }
 ```
 
-## Overview
+## 📋️Overview
 
 ![HALO functions as a three-stage paradigm](./assets/overview.png)
 
@@ -53,7 +53,7 @@ If you find our work useful in your research, please consider citing the HALO as
 
 <!-- markdownlint-enable MD033 -->
 
-## Installation
+## ⚙️Installation
 
 ### 1. Create virtualenv (recommended)
 
@@ -68,7 +68,7 @@ conda activate halo
 pip install -r requirements.txt
 ```
 
-## Quick Start
+## 🔛Quick Start
 
 ### 1. Create Api config file
 
@@ -92,7 +92,7 @@ Locate the code between "user input begin" section and "user input ended" sectio
 python run.py
 ```
 
-## Experiments
+## 📝Experiments
 
 Performance of HALO across three benchmarks. Metrics include $pass@1$ (%) for HumanEval, $accuracy$ (%) for MMLU as well as MATH, and $Avg.$ (%) for the mean performance over three runs. All methods are executed with GPT-4o.
 
@@ -159,6 +159,10 @@ python ./experiment/ablation_study/run_mmlu_w_o_task.py
 
 #### 4.2 View the results in the `HALO/experiment/ablation_study/results` directory
 
-## Acknowledgement
+## 🎀Acknowledgement
 
 In our experiments, data preprocessing was standardized across all tasks. Thus, we referred to [DyLAN](https://github.com/SALT-NLP/DyLAN), [HumanEval](https://github.com/openai/human-eval), [MMLU](https://github.com/hendrycks/test), and [MATH](https://github.com/hendrycks/math) in this stage.
+
+## ⭐Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=23japhone/HALO&type=Date)](https://star-history.com/#23japhone/HALO&Date)
