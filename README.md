@@ -20,6 +20,22 @@
 
 ---
 
+## Citation
+
+If you find our work useful in your research, please consider citing the HALO as follows:
+
+```latex
+@misc{hou2025halohierarchicalautonomouslogicoriented,
+      title={HALO: Hierarchical Autonomous Logic-Oriented Orchestration for Multi-Agent LLM Systems}, 
+      author={Zhipeng Hou and Junyi Tang and Yipeng Wang},
+      year={2025},
+      eprint={2505.13516},
+      archivePrefix={arXiv},
+      primaryClass={cs.MA},
+      url={https://arxiv.org/abs/2505.13516}, 
+}
+```
+
 ## Overview
 
 ![HALO functions as a three-stage paradigm](./assets/overview.png)
@@ -137,22 +153,6 @@ python ./experiment/ablation_study/run_mmlu_w_o_task.py
 ```
 
 #### 4.2 View the results in the `HALO/experiment/ablation_study/results` directory
-
-## Citation
-
-If you find our work useful in your research, please consider citing the HALO as follows:
-
-```latex
-@misc{hou2025halohierarchicalautonomouslogicoriented,
-      title={HALO: Hierarchical Autonomous Logic-Oriented Orchestration for Multi-Agent LLM Systems}, 
-      author={Zhipeng Hou and Junyi Tang and Yipeng Wang},
-      year={2025},
-      eprint={2505.13516},
-      archivePrefix={arXiv},
-      primaryClass={cs.MA},
-      url={https://arxiv.org/abs/2505.13516}, 
-}
-```
 
 ## Acknowledgement
 
